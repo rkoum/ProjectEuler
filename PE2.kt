@@ -9,6 +9,5 @@ fun main() {
         i++
     }
     lista.filter { x -> x % 2 == 0 }
-    val lista2 = lista.filter { x -> x % 2 == 0 }
     println(lista2.sum())
 }
